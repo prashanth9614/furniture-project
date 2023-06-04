@@ -81,6 +81,18 @@ body {
   background-color: white;
   padding: 20px;
 }
+.mainsub1 {   
+ 
+  flex: 35%;
+  background-color: white;
+  padding: 20px;
+}
+.mainsub2 {   
+ 
+  flex: 35%;
+  background-color: white;
+  padding: 20px;
+}
 
 .side2 {
   
@@ -150,28 +162,28 @@ input[type="submit"]:hover {
   cursor: pointer;
 }
 
-		h1 {
+h1 {
 				
 				
-				filter: contrast(180%);
+	filter: contrast(180%);
 				
-				padding: 5px;
-				transform: scale(1.0);
-				transition: all 1.5s ease;
-			}
+	padding: 5px;
+	transform: scale(1.0);
+	transition: all 1.5s ease;
+}
 
-		h1:hover{
+h1:hover{
 
 				
 				
 				
-				filter: contrast(180%);
-				text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
-				padding: 5px;
-				transform: scale(2.0) ;
+	filter: contrast(180%);
+	text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+	padding: 5px;
+	transform: scale(2.0) ;
 				
 
-			}
+}
 			
 			
 
@@ -190,6 +202,26 @@ input[type="submit"]:hover {
   background-color: grey;
 		}
 
+.mySlides {
+display: none;
+}
 
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+ 
+}
+
+@keyframes fade {
+  from {
+  opacity: .4;
+ 
+  } 
+  to {
+  opacity: 1;
+  
+  }
+}
 
 
